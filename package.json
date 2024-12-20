@@ -1,0 +1,22 @@
+{
+  "name": "cli-feed",
+  "version": "1.0.0",
+  "description": "CLI-Feed é um sistema de feed de notícias via terminal que permite acesso rápido e eficiente a atualizações de notícias, diretamente do console.",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "next": "^15.1.2",
+    "react": "^19.0.0",
+    "react-dom": "^19.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "22.10.2",
+    "@types/react": "19.0.2",
+    "prettier": "^3.4.2",
+    "typescript": "5.7.2"
+  }
+}
