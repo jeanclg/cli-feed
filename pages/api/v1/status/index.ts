@@ -1,5 +1,5 @@
 import { NextApiRequest, NextApiResponse } from "next/types";
-import prisma from "../../../../lib/prisma";
+import prisma from "lib/prisma";
 
 export default async (_req: NextApiRequest, res: NextApiResponse) => {
   const prismaTest = await prisma.$queryRaw<{

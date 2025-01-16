@@ -4,7 +4,10 @@
   "description": "CLI-Feed é um sistema de feed de notícias via terminal que permite acesso rápido e eficiente a atualizações de notícias, diretamente do console.",
   "main": "index.js",
   "scripts": {
-    "dev": "next dev",
+    "dev": "npm run services:up && next dev",
+    "services:up": "docker compose up -d",
+    "services:down": "docker compose down",
+    "services:stop": "docker compose stop",
     "test": "jest",
     "test:watch": "jest --watchAll"
   },
